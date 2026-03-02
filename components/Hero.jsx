@@ -8,17 +8,17 @@ const Hero = () => {
       id="home"
       className="relative overflow-hidden bg-gradient-to-br from-[#f8fafc] via-white to-[#e0f2fe] py-10 lg:py-10 px-10"
     >
-      {/* Background Glow Effects */}
+     
       <div className="absolute top-[-100px] left-[-100px] w-[400px] h-[400px] bg-[#0EA5E9]/20 rounded-full blur-[120px]" />
       <div className="absolute bottom-[-120px] right-[-120px] w-[450px] h-[450px] bg-[#10B981]/20 rounded-full blur-[120px]" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
-          {/* LEFT CONTENT */}
+       
           <div className="space-y-10">
             
-            {/* Badge */}
+       
             <div className="inline-flex items-center gap-2 
               backdrop-blur-lg bg-white/40 border border-white/30
               text-[#10B981] px-5 py-2 rounded-full 
@@ -30,7 +30,7 @@ const Hero = () => {
               </span>
             </div>
 
-            {/* Heading */}
+         
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight tracking-tight">
                 Your Smile,
@@ -46,10 +46,10 @@ const Hero = () => {
               </p>
             </div>
 
-            {/* Buttons */}
+          
             <div className="flex flex-col sm:flex-row gap-6">
               
-              {/* Primary Glass Button */}
+             
               <button
                 onClick={() =>
                   document
@@ -65,7 +65,7 @@ const Hero = () => {
                 Book Your Appointment
               </button>
 
-              {/* Glass Outline Button */}
+         
               <button
                 onClick={() =>
                   document
@@ -83,7 +83,7 @@ const Hero = () => {
               </button>
             </div>
 
-            {/* Contact Info Glass Card */}
+           
             <div className="flex flex-col sm:flex-row gap-6 pt-6">
               
               <div className="flex items-center gap-3 
@@ -106,10 +106,10 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* RIGHT IMAGE SECTION */}
+      
           <div className="relative ">
             
-            {/* Glow behind image */}
+        
             <div className="absolute inset-0 bg-gradient-to-tr from-[#0EA5E9]/20 to-[#10B981]/20 blur-3xl rounded-3xl" />
 
             <div className="relative backdrop-blur-xl bg-white/30 border border-white/40 
@@ -123,7 +123,6 @@ const Hero = () => {
               />
             </div>
 
-            {/* Floating Experience Card */}
             <div className="absolute -bottom-8 -right-8 
               backdrop-blur-lg bg-white/40 border border-white/30
               text-gray-800 px-8 py-6 rounded-2xl 

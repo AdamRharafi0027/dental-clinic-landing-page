@@ -7,19 +7,19 @@ const Header = () => {
 
   return (
     <>
-      {/* Navbar */}
+     
       <nav className="sticky top-0 z-50 
         backdrop-blur-xl bg-white/60 
         border-b border-white/30 
         shadow-lg shadow-[#0EA5E9]/5">
         
-        {/* Glow background */}
+      
         <div className="absolute inset-0 bg-gradient-to-r from-[#0EA5E9]/5 via-transparent to-[#10B981]/5 pointer-events-none" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
 
-            {/* Logo */}
+         
             <div className="flex items-center gap-3 cursor-pointer group">
               <div className="w-11 h-11 
                 bg-gradient-to-br from-[#0EA5E9] to-[#10B981]
@@ -36,7 +36,7 @@ const Header = () => {
               </span>
             </div>
 
-            {/* Desktop Navigation */}
+        
             <div className="hidden md:flex items-center gap-8">
 
               {["Home", "Services", "About", "Testimonials", "Contact"].map((item) => (
@@ -55,7 +55,7 @@ const Header = () => {
                 </a>
               ))}
 
-              {/* Glass CTA Button */}
+
               <button
                 onClick={() =>
                   document
@@ -72,7 +72,7 @@ const Header = () => {
               </button>
             </div>
 
-            {/* Mobile Menu Button */}
+           
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="md:hidden p-2 rounded-lg 
@@ -87,7 +87,7 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Mobile Menu */}
+     
           {mobileMenuOpen && (
             <div className="md:hidden mt-4 p-6 rounded-2xl
               backdrop-blur-xl bg-white/70 border border-white/30
