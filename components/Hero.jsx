@@ -53,7 +53,7 @@ const Hero = () => {
               <button
                 onClick={() =>
                   document
-                    .getElementById("appointment")
+                    .getElementById("contact")
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
                 className="relative px-8 py-4 rounded-xl font-medium text-white

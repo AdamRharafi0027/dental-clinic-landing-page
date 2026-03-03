@@ -59,7 +59,7 @@ const Header = () => {
               <button
                 onClick={() =>
                   document
-                    .getElementById("appointment")
+                    .getElementById("contact")
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
                 className="ml-4 px-6 py-3 rounded-xl font-medium text-white
@@ -109,7 +109,7 @@ const Header = () => {
               <button
                 onClick={() => {
                   document
-                    .getElementById("appointment")
+                    .getElementById("contact")
                     ?.scrollIntoView({ behavior: "smooth" });
                   setMobileMenuOpen(false);
                 }}

@@ -27,10 +27,7 @@ const Contact = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
+    setFormData((prevState) => ({...prevState, [name]: value,}));
   };
 
   return (
@@ -61,11 +58,29 @@ const Contact = () => {
             >
               <form onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid md:grid-cols-2 gap-6">
-                  <InputField label="Full Name *" id="name" type="text" formData={formData} handleInputChange={handleInputChange} />
-                  <InputField label="Phone Number *" id="phone" type="tel" formData={formData} handleInputChange={handleInputChange} />
+                  <InputField
+                    label="Full Name *"
+                    id="name"
+                    type="text"
+                    formData={formData}
+                    handleInputChange={handleInputChange}
+                  />
+                  <InputField
+                    label="Phone Number *"
+                    id="phone"
+                    type="tel"
+                    formData={formData}
+                    handleInputChange={handleInputChange}
+                  />
                 </div>
 
-                <InputField label="Email Address *" id="email" type="email" formData={formData} handleInputChange={handleInputChange} />
+                <InputField
+                  label="Email Address *"
+                  id="email"
+                  type="email"
+                  formData={formData}
+                  handleInputChange={handleInputChange}
+                />
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -100,7 +115,13 @@ const Contact = () => {
                     </select>
                   </div>
 
-                  <InputField label="Preferred Date *" id="date" type="date" formData={formData} handleInputChange={handleInputChange} />
+                  <InputField
+                    label="Preferred Date *"
+                    id="date"
+                    type="date"
+                    formData={formData}
+                    handleInputChange={handleInputChange}
+                  />
                 </div>
 
                 <div>
