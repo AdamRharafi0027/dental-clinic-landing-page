@@ -23,6 +23,7 @@ const Contact = () => {
       date: "",
       message: "",
     });
+    alert("Your appointment request has been submitted! We will contact you soon.");
   };
 
   const handleInputChange = (e) => {
